@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    font-family: 'Square Peg', cursive;
+}
+main, header, footer{
+    display: flex;    
+}
+header{
+    flex-direction: column;
+    margin: 0.5cm;
+}
+header h1{
+    font-size: 40px;
+}
+header h2{
+    font-size: 30px;
+    margin-top: 0.3cm;
+    text-align: center;
+}
+main{
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0 1cm;
+}
+main div{
+    margin: 0.4cm 0;
+}
+.player_options h1, .enemy_options h1{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+img{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+img:hover{
+    border: 4px solid rgb(129, 152, 149);
+}
+.validation{
+    transition: 0.5s;
+    animation-name: valAnimation;
+    anima
+}
+footer{
+    margin: 0.1cm 0.5cm;
+    justify-content: center;
+}
+footer h1{
+    font-size: 30px;
+}
